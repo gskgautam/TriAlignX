@@ -8,6 +8,40 @@ TriAlignX is a two-stage framework that:
 1. **Stage 1**: Performs axis-specific fine-tuning and extracts task vectors
 2. **Stage 2**: Implements a multi-agent environment for dynamic alignment
 
+## 📊 Datasets
+
+AlignX uses curated datasets for each alignment axis:
+
+| Alignment Axis | Dataset | Description |
+|----------------|---------|-------------|
+| **Helpfulness** | [Alpaca](https://github.com/tatsu-lab/stanford_alpaca) | 20k instruction-response pairs |
+| **Harmlessness** | [BeaverTails](https://sites.google.com/view/pku-beavertails) | 30k safety-annotated QA pairs |
+| **Honesty** | [TruthfulQA](https://github.com/sylinrl/TruthfulQA) | Benchmark for truthful answering |
+
+---
+
+## 📈 Evaluation Metrics
+
+| Axis         | Metric                           | Description |
+|--------------|----------------------------------|-------------|
+| Helpfulness  | **Win Rate (↑)**                | % of samples where AlignX wins over baseline |
+| Harmlessness | **Safety Score (↓)**            | % of unsafe outputs (lower is better) |
+| Honesty      | **Truthful & Informative (TI ↑)** | Product of truthfulness and informativeness |
+| Overall      | **Average Alignment Score (↑)** | Normalized combination of the above metrics |
+
+**↑**: Higher is better  **↓**: Lower is better
+
+---
+
+Evaluated on the following base LLMs:
+
+- [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+- [Gemma-7B](https://huggingface.co/google/gemma-7b)
+- [DeepSeek-7B](https://huggingface.co/deepseek-ai/deepseek-llm-7b-base)
+- [LLaMA-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf)
+
+---
+
 ## Project Structure
 
 ```
@@ -68,15 +102,4 @@ Evaluation results are saved in `results/` directory with metrics for:
 - Harmlessness (Safety Score)  
 - Honesty (Truthfulness × Informativeness)
 
-## Citation
-
-If you use this implementation, please cite the original paper:
-
-```bibtex
-@inproceedings{trialignx2024,
-  title={TriAlignX: Three-Way Alignment Framework for LLMs},
-  author={...},
-  booktitle={AAAI Conference on Artificial Intelligence},
-  year={2024}
-}
 ``` 
