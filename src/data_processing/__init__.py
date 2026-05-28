@@ -1,5 +1,5 @@
 """
-TriAlignX Data Processing Package
+TriAlignX Dataset Processing Package
 """
 
 from .dataset_loader import (
