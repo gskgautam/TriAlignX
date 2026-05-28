@@ -1,6 +1,6 @@
 """
 Main TriAlignX model implementation
-Combines base model, PrefSelect, and multi-agent environment
+Combines base model, PrefSelect, and multi-agent modules
 """
 
 import torch
