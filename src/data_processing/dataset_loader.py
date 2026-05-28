@@ -1,5 +1,5 @@
 """
-Dataset loader for TriAlignX framework
+Dataset loader for TriAlignX
 Handles BeaverTails (Harmlessness), Alpaca (Helpfulness), and TruthfulQA (Honesty)
 """
 
