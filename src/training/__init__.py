@@ -1,5 +1,5 @@
 """
-TriAlignX Training Package
+TriAlignX Train Package
 """
 
 from .stage1_finetuning import train_axis, extract_task_vector, setup_model_and_tokenizer
