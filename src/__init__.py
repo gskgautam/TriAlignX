@@ -1,5 +1,5 @@
 """
-TriAlignX: A Two-Stage Framework for HHH Alignment
+TriAlignX A Two-Stage Framework for HHH Alignment
 """
 
 from .models.trialignx import TriAlignX
