@@ -1,4 +1,4 @@
-# TriAlignX
+# TriAlign
 
 ## 📚 Datasets
 
