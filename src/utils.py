@@ -1,5 +1,5 @@
 """
-Utility functions for TriAlignX framework
+Utility function for TriAlignX framework
 """
 
 import os
