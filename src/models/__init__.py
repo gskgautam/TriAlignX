@@ -1,5 +1,5 @@
 """
-TriAlignX Models Package
+TriAlignX Model Package
 """
 
 from .trialignx import TriAlignX
