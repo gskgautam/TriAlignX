@@ -1,5 +1,5 @@
 """
-TriAlignX Evaluation Package
+TriAlignX Eval Package
 """
 
 from .evaluate import TriAlignXEvaluator
