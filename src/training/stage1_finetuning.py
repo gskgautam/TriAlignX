@@ -1,5 +1,5 @@
 """
-Stage 1: Axis-specific fine-tuning for TriAlignX
+Stage 1: Axis specific fine-tuning for TriAlignX
 """
 
 import os
