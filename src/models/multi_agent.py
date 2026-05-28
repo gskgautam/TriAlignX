@@ -1,6 +1,6 @@
 """
-Multi-agent components for TriAlignX framework
-Implements Encoding Agent and Response Agent for Stage 2
+Components for TriAlignX framework
+Implements Encoding Module and Response Module for Stage 2
 """
 
 import torch
