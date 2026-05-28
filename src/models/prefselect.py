@@ -1,5 +1,5 @@
 """
-PrefSelect module for TriAlignX framework
+PrefSelect module for TriAlignX
 Implements the routing mechanism for task vector selection
 """
 
