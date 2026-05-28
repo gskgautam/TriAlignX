@@ -1,5 +1,5 @@
 """
-Stage 2: Multi-agent training for TriAlignX
+Stage 2: Multi-module training for TriAlignX
 """
 
 import os
