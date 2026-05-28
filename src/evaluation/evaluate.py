@@ -9,7 +9,7 @@ import h5py
 import openai
 
 # --------------------
-# Set your OpenAI API key
+# Set OpenAI API key
 # --------------------
 openai.api_key = os.getenv("OPENAI_API_KEY", "A")
 
